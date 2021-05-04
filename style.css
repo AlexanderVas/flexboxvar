@@ -186,7 +186,6 @@ main {
     flex-direction: column;
     justify-content: space-around;
     background-color: white;
-    border: 1px solid black;
 }
 
 .container2 h2 {
@@ -215,6 +214,7 @@ main {
     font-size: 20px;
     text-align: center;
     color: #9A1212;
+    z-index: 2;
 }
 
 .goods #arrows{
@@ -227,6 +227,14 @@ main {
     margin-bottom: 11px;
 }
 
+.goods a:hover{
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.goods a:first-child:hover{
+    transform: rotate(180deg) scale(1.1);
+}
 .gooda{
     display: flex;
     flex-direction: column;
