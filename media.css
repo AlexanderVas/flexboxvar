@@ -1,4 +1,4 @@
-@media all and (max-width: 1100px){
+@media all and (max-width: 1200px){
     .container{
         background: none;
     }
@@ -42,14 +42,23 @@
     }
 
     .goods{
+        justify-content: center;
         align-self: center;
         margin:0;
     }
 
-    .gooda:nth-child(2), .gooda:nth-child(4){
+    .goods #arrows{
+        display: none;
+    }
+
+    .gooda{
+        margin-bottom: 70px;
+    }
+
+    /* .gooda:nth-child(2), .gooda:nth-child(4){
         position: absolute;
         display: none!important;
-    }
+    } */
 }
 
 @media all and (max-width: 600px){
@@ -71,10 +80,6 @@
     .container2 h2{
         font-size: 15vw;
         letter-spacing: 1vw;
-    }
-
-    .goods #arrows{
-        display: none;
     }
 
     .footer{
