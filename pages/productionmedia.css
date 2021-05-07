@@ -6,14 +6,34 @@
     header img {
         display: none !important;
     }
+
+    .gooda:nth-last-child(2){
+        display: none !important;
+    }
 }
 
-@media all and (max-width: 600px) {
+
+@media all and (max-width: 900px){
+    .gooda:nth-last-child(3){
+        display: none !important;
+    }
+}
+
+@media all and (max-width: 688px) {
+    .gooda:nth-last-child(4){
+        display: none !important;
+    }
+
     .backblock,footer>p {
         margin: 0;
     }
 }
 
+@media all and (max-width: 500px){
+    .gooda:nth-last-child(5){
+        display: none !important;
+    }
+}
 @media all and (max-width: 400px){
     .goodswrapper #arrows{
         margin:0;

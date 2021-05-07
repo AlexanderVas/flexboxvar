@@ -116,22 +116,20 @@ header ul a:last-child {
 }
 
 .goodswrapper{
-    max-width: 100vw;
+    height: 350px;
+    max-width: 100%;
     display: flex;
     align-items: center;
 }
-
 .goods{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    overflow: hidden; 
+    flex-wrap: nowrap; 
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 300px;
-    max-height: 300px;
-    margin-top:25px;
+    height: 400px;
+    max-height: 400px;
 }
 
 .gooda p{
@@ -141,10 +139,9 @@ header ul a:last-child {
     z-index: 2;
 }
 
-.goodswrapper #arrows{
+.goods #arrows{
     height: 50px;
     width: (100-calc(100vw-50px))px;
-    margin-right: 50px;
 }
 
 .goods a:hover{

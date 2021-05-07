@@ -130,6 +130,7 @@ header ul a:last-child {
 }
 
 .desc img {
+    object-fit: cover;
     order: 2;
     margin-right: -5px;
     height: 100%;
