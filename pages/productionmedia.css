@@ -1,0 +1,24 @@
+@media all and (max-width: 1200px) {
+    .container header {
+        justify-content: center;
+    }
+
+    header img {
+        display: none !important;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .backblock,footer>p {
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 400px){
+    .goodswrapper #arrows{
+        margin:0;
+    }
+    #list{
+        display: none!important;
+    }
+}
