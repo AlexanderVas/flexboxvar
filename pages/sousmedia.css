@@ -2,6 +2,27 @@
     .container header {
         justify-content: center;
     }
+    header img{
+        display: none!important;
+    }
+
+    #list{
+        position: absolute;
+        right:0;
+        bottom: 0;
+        margin: 0 3vw 80px 0;
+        z-index: 1;
+    }
+}
+
+@media all and (max-width: 700px){
+    #list{
+        position: absolute;
+        right:0;
+        bottom: 0;
+        margin: 0 6.8vw 100px 0;
+        z-index: 1;
+    }
 }
 
 @media all and (max-width: 500px){
@@ -26,6 +47,14 @@
     .backblock{
         margin: 0;
     }
+
+    #list{
+        position: absolute;
+        right:0;
+        bottom: 0;
+        margin: 0 2vw 130px 0;
+        z-index: 1;
+    }
 }
 
 @media all and (max-width: 460px){
@@ -39,5 +68,9 @@
     }
     .desc p{
         font-size: 3.4vw;
+    }
+
+    #list{
+        display: none;
     }
 }

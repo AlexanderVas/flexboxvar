@@ -2,7 +2,37 @@
     .container header {
         justify-content: center;
     }
-    header img{
-        display: none!important;
+
+    header img {
+        display: none !important;
+    }
+
+    .text1 {
+        height: 50%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text1 img {
+        width: 30%;
+
+    }
+
+    .text1 p {
+        height: 30%;
+        text-align: center;
+        font-size: 100%;
+    }
+
+    .container>p {
+        height: 30%;
+        font-size: 100%;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .backblock,footer>p {
+        margin: 0;
     }
 }
